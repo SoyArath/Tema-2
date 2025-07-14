@@ -34,7 +34,7 @@ La interfaz presenta un estilo moderno con tonos morados análogos, sombras suav
    ```
 4. Ejecuta la aplicación:
    ```bash
-   python app.py
+   python main.py
    ```
 5. Abre tu navegador en `http://127.0.0.1:5000` 🌐
 
