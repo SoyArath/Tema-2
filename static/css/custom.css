@@ -1,0 +1,52 @@
+
+/* Navbar morado */
+.bg-primary {
+  background-color: #6f42c1 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e1bee7;
+}
+
+/* Dropdowns: fondo púrpura y texto blanco */
+.dropdown-menu {
+  background-color: #7e57c2 !important;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2) !important;
+  margin-top: 0.5rem;
+}
+.dropdown-item {
+  color: #fff !important;
+}
+.dropdown-item:hover {
+  background-color: #5e35b1 !important;
+}
+
+/* Posicionar submenús a la derecha */
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.1rem;
+}
+
+/* Mostrar submenú al pasar el ratón */
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Asegurar que el toggle de los submenús no oculte el contenido */
+.nav-item .dropdown-toggle::after {
+  margin-left: .5em;
+}
+
+/* Icono del toggler en blanco */
+.navbar-light .navbar-toggler-icon,
+.navbar-dark .navbar-toggler-icon {
+  filter: invert(1);
+}
