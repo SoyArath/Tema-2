@@ -42,7 +42,7 @@ La interfaz presenta un estilo moderno con tonos morados análogos, sombras suav
 
 ```text
 frikibook-menu/
-├─ app.py            # Servidor Flask
+├─ main.py            # Servidor Flask
 ├─ requirements.txt  # Dependencias
 ├─ templates/
 │  └─ menu.html      # Plantilla del menú dinámico
@@ -50,6 +50,6 @@ frikibook-menu/
 
 ## 📖 Descripción de Componentes
 
-- **app.py:** Inicializa la aplicación Flask y renderiza `menu.html`.
+- **main.py:** Inicializa la aplicación Flask y renderiza `menu.html`.
 - **menu.html:** Define la estructura HTML del menú con clases para submenús recursivos.
 ---
